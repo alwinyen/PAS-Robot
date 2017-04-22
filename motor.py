@@ -35,11 +35,11 @@ def direction_f(direction):
 	vel = app.getScale("Speed")
 	if (direction == 2):
 		speed(vel,vel,0,0)
-        time.sleep(1)
+        time.sleep(0.7)
         speed(vel,vel,vel,vel)
 	if (direction == 1):
 		speed(0,0,vel,vel)
-		time.sleep(1)
+		time.sleep(0.8)
 		speed(vel,vel,vel,vel)
 	elif (direction == 0):
 		speed(vel,vel,vel,vel)
@@ -52,7 +52,7 @@ def change_vel(btn):
         
 def speed(vel_FL,vel_RL,vel_FR,vel_RR): 
 		direction = 0
-		vel = app.getScale("Speed")
+		vel = app.getScale("Speed")	
 		FL.start(vel_FL)
 		RL.start(vel_RL)
 		FR.start(vel_FR)
@@ -64,8 +64,18 @@ def stop(btn):
 	FR.stop()
 	RR.stop()
 
+def right90(btn):
+	speed(0,0,100,100)
+	time.sleep(2)
+	speed(vel,vel,vel,vel)
+	
+def left90(btn):
+	speed(100,100,0,0)
+	time.sleep(1.8)
+	speed(vel,vel,vel,vel)
+
 try:   
-	app=gui("Control","500x300")
+	app=gui("Control","600x300")
 	app.setFont(20)
 	app.addLabelScale("Speed")
 	app.showScaleIntervals("Speed",100)
@@ -73,6 +83,9 @@ try:
 	app.setScaleWidth("Speed",5)
 	app.addButton("Left", left)
 	app.addButton("Right", right)
+	app.addButton("right90", right90)
+	app.addButton("left90", left90)
+	
 	app.addButton("Emergancy Stop", stop)
 	app.addButton("Change Speed", change_vel)
 	app.go()
