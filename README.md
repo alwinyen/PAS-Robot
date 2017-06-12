@@ -17,5 +17,7 @@ Blue GPIO 23 / PIN16
 More Information on Sutori
 
 https://www.sutori.com/story/pasb0t
+
 Changed to
-timeline.pasrobot.com
+
+http://timeline.pasrobot.com
