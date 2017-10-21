@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel
+
+Name: gyro
+Description: Description of gyro
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/lib 
+Requires: 

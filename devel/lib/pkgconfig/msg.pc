@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel
+
+Name: msg
+Description: Description of msg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/lib 
+Requires: 

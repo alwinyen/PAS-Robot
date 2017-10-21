@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel
+
+Name: navigation_stage
+Description: Description of navigation_stage
+Version: 0.2.3
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/lib 
+Requires: 

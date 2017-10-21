@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel
+
+Name: odometry_publisher_tutorial
+Description: Description of odometry_publisher_tutorial
+Version: 0.2.3
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/lib 
+Requires: 

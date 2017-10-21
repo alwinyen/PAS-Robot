@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel
+
+Name: rosserial_windows
+Description: Description of rosserial_windows
+Version: 0.7.6
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/CMakeFiles/siftgpu_proj"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/CMakeFiles/siftgpu_proj.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/CMakeFiles/siftgpu_proj-complete.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-install.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-mkdir.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-download.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-update.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-patch.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-configure.rule"
+		},
+		{
+			"file" : "/home/ros/catkin_ws/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"siftgpu_proj"
+		],
+		"name" : "siftgpu_proj"
+	}
+}

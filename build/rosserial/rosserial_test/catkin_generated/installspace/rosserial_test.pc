@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/install
+
+Name: rosserial_test
+Description: Description of rosserial_test
+Version: 0.7.6
+Cflags: 
+Libs: -L/home/ros/catkin_ws/install/lib 
+Requires: 
